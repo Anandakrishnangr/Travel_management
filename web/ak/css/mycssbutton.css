@@ -1,0 +1,119 @@
+.button1 {
+  background-color: #008CBA;
+  color: white;
+  border: 3px solid ; /* Green */
+  border-radius: 15px;
+  font-size: 17px;
+  padding: 10px 24px;
+}
+.button1:hover {
+  background-color: #45a049;
+  }
+
+.button2 {
+  background-color: #f44336;
+  color: white;
+  border: 3px solid ; /* Green */
+  border-radius: 15px;
+  font-size: 17px;
+  padding: 10px 24px;
+}
+.button2:hover {
+  background-color: #f44700;
+  }
+
+
+ 
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #66d9ff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.t{
+padding:5px;
+}
+.s{
+padding:75%;
+}
+.butto1 {
+  background-color: #008CBA;
+  color: white;
+  border: 3px solid ; /* Green */
+  border-radius: 0px;
+  font-size: 17px;
+  padding: 10px 24px;
+}
+.butto2{
+  background-color: #008CBA;
+  color: white;
+  border: 3px solid ; /* Green */
+  border-radius: 0px;
+  font-size: 17px;
+  padding: 10px 24px;
+}

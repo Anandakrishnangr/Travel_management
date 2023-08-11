@@ -1,0 +1,34 @@
+
+.button1 {
+  background-color: #3dbce5;
+  color: white;
+  ; /* Green */
+  border-radius: 1px;
+  font-size: 17px;
+  padding: 10px 24px;
+  width:45px;
+ 
+}
+.button1:hover {
+  background-color: #3da1e8;
+  color: white;
+  font-size: 19px;
+  
+  }
+
+.button2 {
+  background-color: #eb392b;
+  color: white;
+   /* Green */
+  border-radius: 1px;
+  font-size: 17px;
+  padding: 10px 24px;
+  width:45px;
+}
+
+.button2:hover {
+  background-color: #b23030;
+  color: white;
+  font-size: 19px;
+   
+  }

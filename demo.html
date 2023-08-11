@@ -1,0 +1,19 @@
+<script src="web/js/jquery-3.3.1.min.js"></script>
+
+
+
+<div id="mydiv">DATA FOR SAMPLE 1</div>
+<div id="what">SAMPLE DATA</div>
+<style type="text/css">
+div {height: 900px; border:2px solid #333; padding:10px;}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    // Handler for .ready() called.
+    $('html, body').animate({
+        scrollTop: $('#what').offset().top
+    }, 'slow');
+});
+
+</script>

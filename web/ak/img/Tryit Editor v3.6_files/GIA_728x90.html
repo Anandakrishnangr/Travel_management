@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://s0.2mdn.net/6351639/1542654983872/728x90_India/GIA_728x90.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ad.size" content="width=728,height=90">
+    <title>GIA 728x90 India</title>
+    <script src="./TweenMax.min.js.download"></script>
+    <script type="text/javascript">
+    var clickTag = "_blank";
+    </script>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    img {
+        display: block;
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        position: absolute;
+    }
+
+    #animation {
+        border: 1px solid grey;
+        width: 728px;
+        height: 90px;
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        background-color: #fff;
+    }
+
+    .left_frame{
+       background-color: #fff;
+      width: 354px;
+      height: 90px;
+      position: absolute;
+      left: 0;
+      z-index: 15;
+   
+    }
+
+    .right_frame{
+      background-color: #af9a7b;
+      width:364px;
+      height: 90px;
+      left:364px;
+      position: absolute;
+    }
+    .sprite{
+        background: url(sprite.png);
+    }
+    .frame1{
+       background-position: -100px -14px; 
+        width: 364px;
+        height: 91px;
+        top: 90px;
+         position: absolute;
+    }
+
+     .frame2{
+      background-position: -102px -287px; 
+      width: 364px;
+      height: 89px;
+        top: -90px;
+        position: absolute;
+    }
+    .text_1{
+        opacity: 0;
+        top: 35px;
+        left: 79px;
+    }
+     .text_2{
+        opacity: 0;
+        top: 35px;
+        left: 216px;
+    }
+
+    .frame11{
+        left: -380px;
+     background-position: -135px -151px;
+    width: 386px;
+        height: 90px;
+        position: absolute;
+        z-index:2;
+    }
+
+     .frame22{
+        top:-90px;
+       background-position: -87px -412px;
+        width: 353px;
+        height: 90px;
+        position: absolute;
+    }
+    .frame23{
+        top:0px;
+        background-position: -78px -540px;
+        width: 363px;
+        height: 90px;
+        left: 363px;
+        position: absolute;
+    
+    }
+    .text_12{
+         opacity: 0;
+         top: 17px;
+         left: 29px;
+       z-index: 3;
+    }
+
+    .text_13{
+         opacity: 1;
+         left: -500px;
+         top:34px;
+         z-index: 2;
+    }
+
+    .text_4c{
+         opacity: 1;
+         top: 21px;
+         left: 520px;
+         z-index: 1;
+    }
+
+    .frame12{
+        background-position: -61px -794px; 
+        width: 364px;
+        height: 90px;
+        position: absolute;
+        opacity: 0;
+        z-index: 2;
+    }
+
+    .frame24{
+        background-position: -77px -656px; 
+        width: 382px;
+        height: 90px;
+        position: absolute;
+        opacity: 0;
+    }
+   
+    .brochure{
+       top: -122px;
+        position: absolute;
+        left: 7px;
+        z-index: 20;
+        transform: scale(0.4) rotate(0deg);
+       opacity: 0;
+    }
+    .report{
+        top: 35px;
+        position: absolute;
+        left: 526px;
+        opacity: 0;
+        
+    }
+    .csi{
+        opacity: 0;
+        top:-57px;
+        position: absolute;
+        left:320px;
+        z-index: 19;
+        transform: scale(0.6);
+    }
+   
+    .insist{
+        position: absolute;
+         top: 35px;
+        left: 35px;
+        opacity: 0;
+        z-index: 20;
+        
+    }
+   
+    .logo,
+    .shine {
+        opacity: 0;
+    }
+
+    .sheen1 {
+        display: block;
+        background: url(sheen.png) no-repeat;
+        background-repeat: no-repeat;
+        transition-property: all;
+        transition-duration: 2s;
+        height: 46px;
+        width: 100px;
+        left: -12px;
+        top: 17px;
+        position: absolute;
+        z-index: 25;
+        opacity: 0;
+    }
+
+    .logo {
+        opacity: 0;
+        position: absolute;
+        top: 19px;
+        left: 552px;
+    }
+
+    .right_arrow1,
+    .right_arrow2 {
+        opacity: 0;
+        position: absolute;
+        top: 38px;
+        transform: scale(1);
+        z-index: 20;
+    }
+
+    .right_arrow1 {
+        left: 234px;
+    }
+
+    .right_arrow2 {
+        left: 241px;
+    }
+     .text_know {
+        position: absolute;
+        top: 34px;
+       left: 63px;
+        opacity: 0;
+        z-index: 20;
+    }
+
+    .text_your {
+        position: absolute;
+        top: 34px;
+         left: 113px;
+        opacity: 0;
+        z-index: 20;
+    }
+
+    .text_diamond {
+        position: absolute;
+        top: 34px;
+        left: 157px;
+        opacity: 0;
+        z-index: 20;
+    }
+  
+        .whitearrow {
+            position: absolute;
+            top: 29px;
+            left: 350px;
+            z-index:1;
+            width:14px;
+            height:29px;
+            opacity:1;
+        }
+
+    </style>
+<script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+
+<body>
+    <a id="cta" href="javascript:void(window.open(window.clickTag))">
+       <div id="animation">
+         <div class="left_frame">
+                 <div class="sprite frame1" style="top: 0px; opacity: 0;"></div>
+                 <img class="text_1" src="./home.png" style="opacity: 0;">
+                 <div class="sprite frame11" style="left: 0px; background-color: rgba(255, 255, 255, 0);"></div>
+                  <img class="text_13" src="./diamond_top.png" style="left: 77px; opacity: 0;">
+                <img class="whitearrow" src="./white_arrow.png" style="transform: matrix(1, 0, 0, 1, 14, 0);">
+                 <img class="text_12" src="./When.png" style="opacity: 0;">
+                  <div class="sprite frame12" style="opacity: 1;"></div>
+            </div>
+            <div class="right_frame">
+                <div class="sprite frame2" style="top: 90px;"></div>
+                 <img class="text_2" src="./Diamond.png" style="opacity: 1; top: 90px;">
+                 <div class="sprite frame22" style="top: 0px; opacity: 0;"></div>
+                  <div class="sprite frame23" style="left: 0px; opacity: 0;"></div>
+                    <img class="text_4c" src="./text_4c.png" style="left: 210px; opacity: 0;">
+                   <div class="sprite frame24" style="opacity: 1;"></div>
+                   <img class="brochure" src="./diamond_brochure.png" style="opacity: 1; left: -112px;">
+             </div>
+             <img class="report" src="./gia_report.png" style="opacity: 0;">
+              <img class="csi" src="./CSI.png" style="opacity: 1;">
+               <img class="insist" src="./insist.png" style="opacity: 0;">
+              <div class="subFrame">
+                    <img class="text_know shineLess" src="./text_know.png" style="opacity: 1;">
+                    <img class="text_your shineLess" src="./text_your.png" style="opacity: 1;">
+                    <img class="text_diamond shineLess" src="./text_diamond.png" style="opacity: 1;">
+                    <img class="right_arrow1 shineLess" src="./right_arrow.png" style="opacity: 1;">
+                    <img class="right_arrow2 shineLess" src="./right_arrow.png" style="opacity: 1;">
+                </div>
+
+                    <div class="sheen1" style="opacity: 1; left: 230px;"></div>
+                    <img class="logo" src="./logo.png" style="opacity: 1;">
+                    <img class="right_arrow1" src="./right_arrow.png" style="opacity: 1;">
+                    <img class="right_arrow2" src="./right_arrow.png" style="opacity: 1;">
+        </div>
+       
+    </a>
+    <script>
+    var tl = new TimelineMax({});
+    tl
+        .to('.frame1', 0.5, {  top: 0, ease: Power0.easeNone }, 1)
+        .to('.frame2', 0.5, {  top: 0, ease: Power0.easeNone }, 1)
+
+        .to('.text_1', 0.5, { alpha: 1, ease: Power0.easeNone }, 1.8)
+        .to('.text_2', 0.5, { alpha: 1, ease: Power0.easeNone }, 1.8)
+
+        .to('.frame2', 1, { top: 90, ease: Power0.easeNone }, 3.6)
+        .to('.text_2', 0.5, { top: 90,alpha: 1, ease: Power0.easeNone }, 3.6)
+
+        .to('.frame22', 1, { top: 0, ease: Power0.easeNone }, 3.6)
+
+        .to('.frame1', 0.5, { alpha: 0, ease: Power0.easeNone }, 6.1)
+        .to('.text_1', 0.3, { alpha: 0, ease: Power0.easeNone }, 6.1)
+
+         .to('.whitearrow', 1, {x:14,ease: Power0.easeNone }, 3.6)
+
+        .to('.frame22', 0.5, { alpha: 0, ease: Power0.easeNone }, 6.1)
+
+        .to('.frame23', 1, { left: 0, ease: Power0.easeNone }, 6.1)
+        .to('.text_4c', 1, {alpha:1,left:210, ease: Power0.easeNone }, 6.1)
+
+        .to('.frame11', 1, { left: 0, ease: Power0.easeNone }, 6.1)
+        .to('.frame11', 1, { backgroundColor:'transparent', ease: Power0.easeNone }, 6.1)
+        .to('.text_13', 1, {left:77, ease: Power0.easeNone }, 6.1)
+        .to('.text_13', 0.6, {alpha:0, ease: Power0.easeNone }, 9)
+
+        .to('.text_12', 0.6, { alpha: 1, ease: Power0.easeNone }, 9.1)
+
+        .to('.frame23', 0.6, { alpha:0, ease: Power0.easeNone }, 9.1)
+        .to('.frame24', 0.6, { alpha:1, ease: Power0.easeNone }, 9.1)
+        .to('.text_4c', 0.6, {alpha:0, ease: Power0.easeNone }, 9.1)
+
+        .to('.brochure', 0.6, {alpha:1, ease: Power0.easeNone }, 9.1)
+        .to('.report', 0.6, { alpha:1, ease: Power0.easeNone }, 9.1)
+
+         .to('.frame12', 0.7, { alpha:1, ease: Power0.easeNone }, 12)
+        .to('.text_12', 0.5, { alpha:0, ease: Power0.easeNone }, 12)
+        .to('.report', 0.5, { alpha: 0, ease: Power0.easeNone }, 12)
+
+        .to('.insist', 0.5, { alpha: 1, ease: Power0.easeNone }, 12.2)
+        .to('.logo', 0.5, { alpha: 1 }, 12.2)
+
+        .to('.brochure', 0.5, { scale: 0.4, left:-112, ease: Power0.easeNone }, 12)
+        .to('.csi', 0.5, {alpha: 1, ease: Power0.easeNone }, 12.3)
+
+        .to('.insist', 0.5, { alpha:0, ease: Power0.easeNone }, 14.5)
+        .to('.text_know', 0.5, { alpha: 1, ease: Power0.easeNone }, 14.7)
+        .to('.text_your', 0.5, { alpha: 1, ease: Power0.easeNone }, 15)
+        .to('.text_diamond', 0.5, { alpha: 1, ease: Power0.easeNone }, 15.3)
+        .to('.right_arrow1', 0.2, { alpha: 1 }, 15.5)
+        .to('.right_arrow2', 0.2, { alpha: 1 }, 15.7)
+        .to('.sheen1', 0.2, { alpha:1},15.7)
+        .to('.sheen1', 1, {left: 230, ease: Power0.easeNone }, 15.7);
+
+    </script>
+
+
+</body></html>

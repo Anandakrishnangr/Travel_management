@@ -1,0 +1,75 @@
+
+
+@media screen and (min-width: 601px) {
+  .img1 {
+  height: 450px;
+  
+  background: url("web/ak/img/suriyal.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+  .q1{
+    color: white;
+    font-size:4vw;
+    text-align: center;
+    
+  }
+.q2{      
+    	
+    	text-align: center;
+    	margin-left: 450px;
+    	font-size: 35px;
+     	
+
+}	
+}
+
+@media screen and (max-width: 600px) {
+  .q1{
+    font-size: 60px;
+    font-style: oblique;
+    margin-right:100px; 
+    color: white;
+    font-size:9vw;
+    font-weight: 20px;
+
+  }
+  .img1 {
+  height: 600px;
+  
+  background: url("web/ak/img/suriyal.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+
+.q2{      
+    	
+    	text-align: center;
+    	margin-left: 65px;
+    	font-size: 26px;
+     	
+
+}	
+
+.qq{
+margin-top: 190px;
+
+}
+
+
+}
+.dev2{
+
+	height: 700px;
+	background-color: white;
+}
+
+

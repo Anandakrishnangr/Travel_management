@@ -1,0 +1,15 @@
+1.Notice: Array to string conversion in C:\xampp\htdocs\TM\classes\userclass.php on line 900
+http://localhost/tm/notadd.php?k=59
+agncy->chat->send
+SOLVED
+2.CHAT BUGS
+CHAT VIEW
+3.not completed in tpl
+http://localhost/tm/agencybookingsview.php
+4.http://localhost/tm/userbookingview.php
+cancel button,review  button,editreview  button
+
+http://localhost/tm/demonchat.php?g=64#
+
+first input chat time error
+chat auto bottom
